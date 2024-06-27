@@ -8,6 +8,7 @@
 import SwiftUI
 
 class TimerModel:NSObject, ObservableObject,UNUserNotificationCenterDelegate {
+    
     @Published var progress: CGFloat = 1
     @Published var timerStringValue: String = "00:00"
     @Published var isStarted: Bool = false
@@ -21,7 +22,7 @@ class TimerModel:NSObject, ObservableObject,UNUserNotificationCenterDelegate {
     
     override init() {
         super.init()
-        authorizeNotification()
+        self.authorizeNotification()
     }
     
     func startTimer() {

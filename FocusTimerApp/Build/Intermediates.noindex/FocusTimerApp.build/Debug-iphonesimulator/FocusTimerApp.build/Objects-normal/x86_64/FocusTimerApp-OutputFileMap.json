@@ -1,0 +1,58 @@
+{
+  "" : {
+    "diagnostics" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/FocusTimerApp-master.dia",
+    "emit-module-dependencies" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/FocusTimerApp-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/FocusTimerApp-master-emit-module.dia",
+    "swift-dependencies" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/FocusTimerApp-master.swiftdeps"
+  },
+  "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/FocusTimerApp/ContentView.swift" : {
+    "const-values" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/ContentView.d",
+    "diagnostics" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/ContentView.dia",
+    "index-unit-output-path" : "/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/ContentView.o",
+    "llvm-bc" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/ContentView.bc",
+    "object" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/ContentView.o",
+    "swift-dependencies" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/ContentView~partial.swiftmodule"
+  },
+  "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/FocusTimerApp/FocusTimerAppApp.swift" : {
+    "const-values" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/FocusTimerAppApp.swiftconstvalues",
+    "dependencies" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/FocusTimerAppApp.d",
+    "diagnostics" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/FocusTimerAppApp.dia",
+    "index-unit-output-path" : "/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/FocusTimerAppApp.o",
+    "llvm-bc" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/FocusTimerAppApp.bc",
+    "object" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/FocusTimerAppApp.o",
+    "swift-dependencies" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/FocusTimerAppApp.swiftdeps",
+    "swiftmodule" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/FocusTimerAppApp~partial.swiftmodule"
+  },
+  "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/FocusTimerApp/Model/TimerModel.swift" : {
+    "const-values" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/TimerModel.swiftconstvalues",
+    "dependencies" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/TimerModel.d",
+    "diagnostics" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/TimerModel.dia",
+    "index-unit-output-path" : "/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/TimerModel.o",
+    "llvm-bc" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/TimerModel.bc",
+    "object" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/TimerModel.o",
+    "swift-dependencies" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/TimerModel.swiftdeps",
+    "swiftmodule" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/TimerModel~partial.swiftmodule"
+  },
+  "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/FocusTimerApp/View/Home.swift" : {
+    "const-values" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/Home.swiftconstvalues",
+    "dependencies" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/Home.d",
+    "diagnostics" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/Home.dia",
+    "index-unit-output-path" : "/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/Home.o",
+    "llvm-bc" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/Home.bc",
+    "object" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/Home.o",
+    "swift-dependencies" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/Home.swiftdeps",
+    "swiftmodule" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/FocusTimerApp.build/Debug-iphonesimulator/FocusTimerApp.build/Objects-normal/x86_64/Home~partial.swiftmodule"
+  }
+}

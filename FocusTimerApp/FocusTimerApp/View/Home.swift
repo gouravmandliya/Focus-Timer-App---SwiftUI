@@ -23,24 +23,24 @@ struct Home: View {
                             .padding(-40)
                         Circle()
                             .trim(from: 0, to: model.progress)
-                            .stroke(Color("Purple"),lineWidth:5)
+                            .stroke(Color(.purple),lineWidth:5)
                             .blur(radius: 15)
                             .padding(-2)
                         Circle()
-                            .fill(Color("Background"))
+                            .fill(Color(.background))
                         Circle()
                             .trim(from: 0, to: model.progress)
-                            .stroke(Color("Purple").opacity(0.7),lineWidth: 10)
+                            .stroke(Color(.purple).opacity(0.7),lineWidth: 10)
                         GeometryReader { proxy in
                             let size = proxy.size
                             Circle()
-                                .fill(Color("Purple"))
+                                .fill(Color(.purple))
                                 .frame(width: 30, height: 30)
                                 .overlay {
                                     Circle()
                                         .fill(.white)
                                         .padding(5)
-                                        
+                                    
                                 }
                                 .frame(width: size.width, height: size.height, alignment: .center)
                                 .offset(x: size.height/2)
@@ -51,7 +51,7 @@ struct Home: View {
                             .font(.system(size:45,weight:.light))
                             .rotationEffect(.init(degrees: 90))
                             .animation(.none, value: model.progress)
-                            
+                        
                     }
                     .padding(60)
                     .frame(height:proxy.size.width)
@@ -61,7 +61,7 @@ struct Home: View {
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
                     
                     Button {
-                  
+                        
                         if model.isStarted {
                             model.stopTimer()
                             UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
@@ -76,9 +76,9 @@ struct Home: View {
                             .frame(width: 80, height: 80, alignment: .center)
                             .background {
                                 Circle()
-                                    .fill(Color("Purple"))
+                                    .fill(Color(.purple))
                             }
-                            .shadow(color: Color("Purple"), radius: 8, x: 0, y: 0)
+                            .shadow(color: Color(.purple), radius: 8, x: 0, y: 0)
                     }
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
@@ -86,7 +86,7 @@ struct Home: View {
         }
         .padding()
         .background {
-            Color("Background").ignoresSafeArea()
+            Color(.background).ignoresSafeArea()
         }
         .overlay(content: {
             ZStack {
@@ -147,7 +147,7 @@ struct Home: View {
                         Print("pressed")
                         ContextMenuOptions(maxVal: 12, hint: "hr") { value in
                             model.hour = value
-                           
+                            
                         }
                     }
                 
@@ -182,7 +182,7 @@ struct Home: View {
                             model.seconds = value
                         }
                     }
-
+                
             }
             .padding(.top,20)
             
@@ -197,7 +197,7 @@ struct Home: View {
                     .padding(.horizontal,100)
                     .background {
                         Capsule()
-                            .fill(Color("Purple"))
+                            .fill(Color(.purple))
                     }
             }
             .disabled(model.seconds == 0 && model.hour == 0 && model.minute == 0)
@@ -207,18 +207,18 @@ struct Home: View {
         .padding()
         .frame(maxWidth:.infinity)
         .background {
-                RoundedRectangle(cornerRadius: 10, style: .continuous)
-                    .fill(Color("Background"))
-                    .ignoresSafeArea()
+            RoundedRectangle(cornerRadius: 10, style: .continuous)
+                .fill(Color(.background))
+                .ignoresSafeArea()
         }
     }
     @ViewBuilder
     func ContextMenuOptions(maxVal:Int,hint:String,onClick:@escaping(Int)->())-> some View {
-         ForEach(1...maxVal,id:\.self) { value in
-             Button("\(value) \(hint)") {
-                 onClick(value)
-             }
-         }
+        ForEach(1...maxVal,id:\.self) { value in
+            Button("\(value) \(hint)") {
+                onClick(value)
+            }
+        }
     }
 }
 

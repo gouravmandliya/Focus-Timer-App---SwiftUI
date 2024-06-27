@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/FocusTimerApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameBackground</string>
+			<key>relativePath</key>
+			<string>./Background.colorset</string>
+			<key>swiftSymbol</key>
+			<string>background</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/FocusTimerApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameDarkPurple</string>
+			<key>relativePath</key>
+			<string>./DarkPurple.colorset</string>
+			<key>swiftSymbol</key>
+			<string>darkPurple</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/FocusTimerApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNamePurple</string>
+			<key>relativePath</key>
+			<string>./Purple.colorset</string>
+			<key>swiftSymbol</key>
+			<string>purple</string>
+		</dict>
+	</array>
+	<key>images</key>
+	<array/>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

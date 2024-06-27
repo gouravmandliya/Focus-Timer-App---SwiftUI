@@ -6,14 +6,18 @@
 //
 
 import SwiftUI
+import UserNotifications
 
 @main
 struct FocusTimerAppApp: App {
     
-    @StateObject  var  timerModel :TimerModel = .init()
+    @StateObject var timerModel: TimerModel = .init()
     
     @Environment(\.scenePhase) var phase
     @State var lastActiveTimeStamp : Date = Date()
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delgate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
@@ -27,7 +31,6 @@ struct FocusTimerAppApp: App {
                 
                 let currentTimeStampDiff = Date().timeIntervalSince(lastActiveTimeStamp)
                 if newValue == .active {
-                  
                     timerModel.isStarted = false
                     timerModel.totalSeconds = 0
                     timerModel.isFinished = true
@@ -39,9 +42,35 @@ struct FocusTimerAppApp: App {
         }
     }
 }
+
 extension View {
     func Print(_ vars: Any...) -> some View {
         for v in vars { print(v) }
         return EmptyView()
     }
 }
+
+
+class AppDelegate:NSObject,UIApplicationDelegate,UNUserNotificationCenterDelegate {
+    
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        UNUserNotificationCenter.current().delegate = self
+        return true
+    }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification) async -> UNNotificationPresentationOptions {
+        if UIDevice.hasDynamicIsland {
+            return [.sound]
+        }
+        else {
+            return [.sound,.banner]
+        }
+    }
+}
+
+extension UIDevice {
+    static var hasDynamicIsland: Bool {
+        ["iPhone 14 Pro", "iPhone 14 Pro Max"].contains(current.name)
+    }
+}
+

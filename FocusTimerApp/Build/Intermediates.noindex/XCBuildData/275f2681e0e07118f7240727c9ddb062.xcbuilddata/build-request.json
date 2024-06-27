@@ -1,0 +1,66 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "ab04949cab999701db22960bb86d27ba3cca373839689539a0b81520f807dc4b"
+    }
+  ],
+  "containerPath" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/FocusTimerApp.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Products",
+      "derivedDataPath" : "/Users/gouravm/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/gouravm/Library/Developer/Xcode/DerivedData/FocusTimerApp-cfejovccqfviewgqudbxicrvyodi/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/gouravm/Library/Developer/Xcode/DerivedData/FocusTimerApp-cfejovccqfviewgqudbxicrvyodi/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone15,4",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "17.0",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone15,4",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/Build/Intermediates.noindex/CodeCoverage/ProfileData",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "D64710AE-5FCE-415D-BBFD-7389DE581991",
+          "TARGET_DEVICE_MODEL" : "iPhone15,4",
+          "TARGET_DEVICE_OS_VERSION" : "17.0",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

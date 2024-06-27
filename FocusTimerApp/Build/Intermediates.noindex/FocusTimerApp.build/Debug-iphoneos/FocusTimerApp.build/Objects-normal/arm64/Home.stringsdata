@@ -1,0 +1,48 @@
+{
+  "source": "/Users/gouravm/Desktop/SwiftUI/FocusTimerApp/FocusTimerApp/FocusTimerApp/View/Home.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Congratulations You did it!!"
+      },
+      {
+        "comment": "",
+        "key": "Focus Timer"
+      },
+      {
+        "comment": "",
+        "key": "Start New"
+      },
+      {
+        "comment": "",
+        "key": "Close"
+      },
+      {
+        "comment": "",
+        "key": "Add New Timer"
+      },
+      {
+        "comment": "",
+        "key": "%lld hr"
+      },
+      {
+        "comment": "",
+        "key": "%lld min"
+      },
+      {
+        "comment": "",
+        "key": "%lld sec"
+      },
+      {
+        "comment": "",
+        "key": "Save"
+      },
+      {
+        "comment": "",
+        "key": "%lld %@"
+      }
+    ]
+  },
+  "version": 1
+}
