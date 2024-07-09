@@ -133,56 +133,57 @@ struct Home: View {
             
             
             HStack(spacing:15) {
-                Text("\(model.hour) hr")
-                    .font(.title3)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.white.opacity(0.3))
-                    .padding(.horizontal,20)
-                    .padding(.vertical,12)
-                    .background {
-                        Capsule()
-                            .fill(.white.opacity(0.07))
-                    }
-                    .contextMenu  {
-                        Print("pressed")
-                        ContextMenuOptions(maxVal: 12, hint: "hr") { value in
-                            model.hour = value
-                            
-                        }
-                    }
                 
-                Text("\(model.minute) min")
-                    .font(.title3)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.white.opacity(0.3))
-                    .padding(.horizontal,20)
-                    .padding(.vertical,12)
-                    .background {
-                        Capsule()
-                            .fill(.white.opacity(0.07))
+                Menu {
+                    ContextMenuOptions(maxVal: 12, hint: "hr") { value in
+                        model.hour = value
                     }
-                    .contextMenu  {
-                        ContextMenuOptions(maxVal: 60, hint: "min") { value in
-                            model.minute = value
+                } label: {
+                    Text("\(model.hour) hr")
+                        .font(.title3)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.white.opacity(0.3))
+                        .padding(.horizontal,20)
+                        .padding(.vertical,12)
+                        .background {
+                            Capsule()
+                                .fill(.white.opacity(0.07))
                         }
+                }
+
+                Menu {
+                    ContextMenuOptions(maxVal: 60, hint: "min") { value in
+                        model.minute = value
                     }
-                
-                Text("\(model.seconds) sec")
-                    .font(.title3)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.white.opacity(0.3))
-                    .padding(.horizontal,20)
-                    .padding(.vertical,12)
-                    .background {
-                        Capsule()
-                            .fill(.white.opacity(0.07))
-                    }
-                    .contextMenu  {
-                        ContextMenuOptions(maxVal: 60, hint: "sec") { value in
-                            model.seconds = value
+                } label: {
+                    Text("\(model.minute) min")
+                        .font(.title3)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.white.opacity(0.3))
+                        .padding(.horizontal,20)
+                        .padding(.vertical,12)
+                        .background {
+                            Capsule()
+                                .fill(.white.opacity(0.07))
                         }
+                }
+
+                Menu {
+                    ContextMenuOptions(maxVal: 60, hint: "sec") { value in
+                        model.seconds = value
                     }
-                
+                } label: {
+                    Text("\(model.seconds) sec")
+                        .font(.title3)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.white.opacity(0.3))
+                        .padding(.horizontal,20)
+                        .padding(.vertical,12)
+                        .background {
+                            Capsule()
+                                .fill(.white.opacity(0.07))
+                        }
+                }
             }
             .padding(.top,20)
             
